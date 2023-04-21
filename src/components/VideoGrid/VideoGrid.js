@@ -1,10 +1,10 @@
 import React from 'react'
 import Style from './VideoGrid.module.scss'
 
-const VideoGrid = ({chidlren}) => {
+const VideoGrid = ({children}) => {
   return (
     <div className={Style.container}>
-      {chidlren}
+      {children}
     </div>
   )
 }
